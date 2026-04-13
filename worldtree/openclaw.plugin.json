@@ -1,0 +1,15 @@
+{
+  "id": "worldtree-core-engines",
+  "name": "worldtree",
+  "version": "1.0.0",
+  "author": "OpenClaw Team",
+  "description": "世界树六层架构管理插件，支撑分布式Agent系统全生命周期管理",
+  "main": "./index.js",
+  "type": "core",
+  "category": "architecture",
+  "dependencies": {},
+  "configSchema": {},
+  "keywords": ["architecture", "worldtree", "agent", "orchestration"],
+  "license": "MIT",
+  "minOpenClawVersion": "0.8.0"
+}

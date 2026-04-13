@@ -1,0 +1,35 @@
+# 敏感信息
+*.bak
+*.key
+*.pem
+**/*secret*
+**/*token*
+**/*password*
+
+# 临时文件
+_temp/
+*.tmp
+
+# memory 文件（只保留核心）
+memory/daily/
+memory/episodes/
+memory/self-improvement/
+memory/*.md
+!memory/MEMORY.md
+
+# 技能数据
+skills/data/
+
+# 大型目录
+node_modules/
+__pycache__/
+.venv/
+
+# 日志
+logs/
+*.log
+
+# 已完成任务归档
+tasks/completed/
+tasks/logs/
+tasks/reports/
