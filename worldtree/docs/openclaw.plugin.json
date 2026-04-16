@@ -1,0 +1,23 @@
+{
+  "id": "openclaw.plugin.worldtree",
+  "name": "世界树架构插件",
+  "version": "1.0.0",
+  "description": "OpenClaw世界树六层分布式架构核心插件，提供多Agent协作、知识图谱、权限管控、资源调度能力",
+  "author": "WorldTree Team",
+  "license": "MIT",
+  "type": "plugin",
+  "main": "dist/index.js",
+  "dependencies": {
+    "openclaw": "^2.0.0"
+  },
+  "capabilities": [
+    "multi_agent_collab",
+    "knowledge_graph",
+    "resource_scheduler",
+    "permission_manager"
+  ],
+  "configuration": {
+    "schema": "config-schema.json",
+    "default": {}
+  }
+}

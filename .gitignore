@@ -1,6 +1,7 @@
 # Python
 __pycache__/
 *.pyc
+*.pyo
 
 # Node
 node_modules/
@@ -37,6 +38,8 @@ convert_whisper*.py
 
 # 临时文件
 tmp_*
+_temp/
+*.tmp
 query
 *.xlsx
 sales_report.xlsx
@@ -45,3 +48,30 @@ sample_sales.xlsx
 # TurboQuant 大数据文件
 skills/data/turboquant/*.npy
 skills/data/turboquant/*.tq
+
+# 敏感信息
+*.bak
+*.key
+*.pem
+**/*secret*
+**/*token*
+**/*password*
+
+# memory 文件（只保留核心，不跟踪 daily/episodes/self-improvement）
+memory/daily/
+memory/episodes/
+memory/self-improvement/
+
+# 技能数据
+skills/data/
+
+# 大型目录
+.venv/
+
+# 日志
+*.log
+
+# 已完成任务归档
+tasks/completed/
+tasks/logs/
+tasks/reports/
