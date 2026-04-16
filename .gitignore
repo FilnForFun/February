@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+package-lock.json
+
+# 浏览器缓存
+1/
+
+# 媒体文件
+*.wav
+*.mp3
+*.mp4
+*.png
+*.jpg
+*.jpeg
+*.gif
+test_screenshot.png
+test_chattts.wav
+test_chattts_output.wav
+
+# 模型缓存
+chattts_cache/
+chattts_model/
+vector_build_temp/
+
+# 测试脚本
+test_*.py
+check_*.py
+cleanup*.py
+try_*.py
+download_*.py
+force_remove_*.py
+convert_whisper*.py
+
+# 临时文件
+tmp_*
+query
+*.xlsx
+sales_report.xlsx
+sample_sales.xlsx
+
+# TurboQuant 大数据文件
+skills/data/turboquant/*.npy
+skills/data/turboquant/*.tq

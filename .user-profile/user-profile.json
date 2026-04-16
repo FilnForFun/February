@@ -1,0 +1,122 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-04-11T16:20:00+08:00",
+  "basic_info": {
+    "name": "大佬",
+    "preferred_address": "大佬",
+    "timezone": "Asia/Shanghai",
+    "language": "zh-CN",
+    "active_hours": {
+      "observed": "09:00-16:30",
+      "confidence": 0.8,
+      "note": "基于 2026-04-11 全天观察，持续活跃"
+    }
+  },
+  "preferences": {
+    "communication": {
+      "style": {
+        "value": "direct",
+        "confidence": 0.7,
+        "evidence": ["收到请回复 → 简洁回应", "继续 → 不说废话直接干活"],
+        "last_updated": "2026-04-11"
+      },
+      "language": {
+        "value": "zh-CN",
+        "confidence": 1.0,
+        "evidence": ["所有对话使用中文"],
+        "last_updated": "2026-04-11"
+      },
+      "report_format": {
+        "value": "table-heavy",
+        "confidence": 0.6,
+        "evidence": ["多次使用表格输出，用户未表示不满"],
+        "last_updated": "2026-04-11"
+      }
+    },
+    "technical": {
+      "stack": {
+        "value": ["Python", "TypeScript", "Docker", "OpenClaw", "dashscope/qwen", "volcengine", "xiaomi"],
+        "confidence": 0.9,
+        "evidence": ["世界树七层架构", "大量 Python 脚本", "Docker 部署 Neo4j/Redis", "多模型配置"],
+        "last_updated": "2026-04-11"
+      }
+    },
+    "workflow": {
+      "task_style": {
+        "value": "batch_execute",
+        "confidence": 0.8,
+        "evidence": ["一次性给多个方向：检查世界树 → GitHub研究 → P0方向 → 安装 → 继续"],
+        "last_updated": "2026-04-11"
+      },
+      "decision_speed": {
+        "value": "fast",
+        "confidence": 0.8,
+        "evidence": ["快速决策：立即修复 → 逐一深入分析 → 启动phase1+2 → 立即安装 → 继续multica"],
+        "last_updated": "2026-04-11"
+      },
+      "depth_preference": {
+        "value": "deep_then_broad",
+        "confidence": 0.7,
+        "evidence": ["每个方向都要求深入分析，然后快速推进到下一个"],
+        "last_updated": "2026-04-11"
+      }
+    },
+    "interests": {
+      "high": [
+        {"topic": "AI Agent 架构", "confidence": 0.95, "evidence": ["hermes-agent 深度研究", "自主进化引擎"]},
+        {"topic": "世界树架构", "confidence": 1.0, "evidence": ["七层架构设计者", "持续优化"]},
+        {"topic": "开源项目趋势", "confidence": 0.9, "evidence": ["GitHub 每日研究", "Multica/Archon 评估"]}
+      ],
+      "medium": [
+        {"topic": "金融工程", "confidence": 0.8, "evidence": ["期货交易所公告抓取", "Kronos 金融模型研究"]},
+        {"topic": "知识管理", "confidence": 0.8, "evidence": ["知识蒸馏", "BM25/向量/图谱搜索"]}
+      ],
+      "emerging": [
+        {"topic": "Agent 管理平台", "confidence": 0.7, "evidence": ["Multica 集成研究"]},
+        {"topic": "工作流编排", "confidence": 0.7, "evidence": ["YAML 工作流引擎设计"]}
+      ]
+    }
+  },
+  "history": [
+    {
+      "date": "2026-04-11",
+      "field": "preferences.workflow.task_style",
+      "old_value": null,
+      "new_value": "batch_execute",
+      "confidence": 0.8,
+      "reason": "观察到大佬习惯一次性推进多个方向，不等前一个完全结束"
+    }
+  ],
+  "learned": [
+    {
+      "date": "2026-04-11",
+      "observation": "大佬喜欢在报告中看到量化数据（星星数、文档数、节点数）",
+      "confidence": 0.6,
+      "source": "GitHub 研究报告中的详细数据"
+    },
+    {
+      "date": "2026-04-11",
+      "observation": "对网络限制有耐心，接受方案就绪后等待",
+      "confidence": 0.7,
+      "source": "Multica 网络阻塞后继续其他方向"
+    },
+    {
+      "date": "2026-04-11",
+      "observation": "重视与世界树的关联性分析",
+      "confidence": 0.8,
+      "source": "每个项目分析都要求'与世界树的关联'"
+    }
+  ],
+  "stats": {
+    "total_sessions": 1,
+    "total_interactions": 15,
+    "avg_session_length_minutes": 420,
+    "top_topics": ["世界树架构", "AI Agent", "GitHub 趋势", "Multica 集成"],
+    "active_hours_observed": ["09:00", "10:00", "11:00", "12:00", "13:00", "14:00", "15:00", "16:00"],
+    "response_satisfaction": {
+      "positive_signals": 0,
+      "negative_signals": 0,
+      "note": "数据不足，待观察"
+    }
+  }
+}

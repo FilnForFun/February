@@ -1,0 +1,441 @@
+{
+  "version": "2.1",
+  "description": "世界树任务注册表 - 统一管理所有项目和任务",
+  "last_updated": "2026-04-16T13:11:00+08:00",
+  "tasks": {
+    "TASK-2026-001": {
+      "title": "架构优化 - 分层架构实施",
+      "status": "completed",
+      "priority": "P1",
+      "created": "2026-03-15",
+      "due": "2026-04-12",
+      "completed": "2026-04-09",
+      "owner": "Molili",
+      "tags": [
+        "架构优化",
+        "迁移",
+        "P1"
+      ],
+      "progress": 100,
+      "actual_status": "✅ 已完成 - 工作合并到 TASK-2026-003，active 文件已归档",
+      "file_path": "tasks/completed/2026-03/TASK-2026-001.md"
+    },
+    "TASK-2026-002": {
+      "title": "WSL2 迁移优化",
+      "status": "cancelled",
+      "priority": "P0",
+      "created": "2026-03-15",
+      "due": "2026-03-29",
+      "completed": "2026-04-09",
+      "owner": "Molili",
+      "tags": [
+        "WSL2",
+        "迁移",
+        "已取消"
+      ],
+      "progress": 15,
+      "actual_status": "用户取消（2026-04-09）",
+      "file_path": "tasks/active/TASK-2026-002.md"
+    },
+    "TASK-2026-003": {
+      "title": "架构改造 - 上下文弹性管理 + 记忆主动提炼",
+      "status": "completed",
+      "priority": "P1",
+      "created": "2026-04-02",
+      "due": "2026-06-30",
+      "completed": "2026-04-09",
+      "owner": "Molili",
+      "tags": [
+        "架构优化",
+        "上下文管理",
+        "记忆系统"
+      ],
+      "progress": 100,
+      "actual_status": "全部完成 ✅，验收通过，已关闭",
+      "file_path": "tasks/active/TASK-2026-003-architecture-overhaul.md"
+    },
+    "TASK-2026-004": {
+      "title": "期货交易所公告爬虫系统",
+      "status": "completed",
+      "priority": "P0",
+      "created": "2026-03-28",
+      "due": "2026-04-07",
+      "completed": "2026-04-07",
+      "owner": "Molili",
+      "tags": [
+        "爬虫",
+        "期货",
+        "自动化"
+      ],
+      "progress": 100,
+      "actual_status": "✅ 已完成 - 爬虫+定时任务+飞书文档",
+      "file_path": "tasks/completed/2026-04/TASK-2026-004.md",
+      "report": "tasks/completed/2026-04/TASK-2026-004-子任务4-验证报告.md"
+    },
+    "TASK-2026-005": {
+      "title": "混合搜索系统（BM25 + 向量）",
+      "status": "completed",
+      "priority": "P0",
+      "created": "2026-04-07",
+      "due": "2026-04-07",
+      "completed": "2026-04-07",
+      "owner": "Molili",
+      "tags": [
+        "搜索",
+        "BM25",
+        "向量"
+      ],
+      "progress": 100,
+      "actual_status": "✅ 已完成 - 合并到 TASK-2026-008",
+      "file_path": "tasks/completed/2026-04/TASK-2026-005-hybrid-search.md"
+    },
+    "TASK-2026-006": {
+      "title": "知识图谱构建",
+      "status": "completed",
+      "priority": "P0",
+      "created": "2026-04-07",
+      "due": "2026-04-08",
+      "completed": "2026-04-08",
+      "owner": "Molili",
+      "tags": [
+        "知识图谱",
+        "Neo4j"
+      ],
+      "progress": 100,
+      "actual_status": "✅ Phase 1-2 完成",
+      "file_path": "tasks/completed/2026-04/TASK-2026-006-knowledge-graph.md"
+    },
+    "TASK-2026-007": {
+      "title": "KG-Search Phase 3 集成",
+      "status": "completed",
+      "priority": "P0",
+      "created": "2026-04-08",
+      "due": "2026-04-09",
+      "completed": "2026-04-08",
+      "owner": "Molili",
+      "tags": [
+        "知识图谱",
+        "搜索",
+        "集成"
+      ],
+      "progress": 100,
+      "actual_status": "✅ 已完成",
+      "file_path": "tasks/completed/2026-04/TASK-2026-007-kg-search-phase3.md",
+      "report": "tasks/completed/2026-04/TASK-2026-007-kg-search-integration.md"
+    },
+    "TASK-2026-008": {
+      "title": "搜索引擎升级项目",
+      "status": "completed",
+      "priority": "P0",
+      "created": "2026-04-09",
+      "due": "2026-04-09",
+      "completed": "2026-04-09",
+      "owner": "Molili",
+      "tags": [
+        "搜索",
+        "重排序",
+        "查询理解",
+        "迭代检索"
+      ],
+      "progress": 100,
+      "actual_status": "✅ Phase 1-5 全部完成，生产部署完成",
+      "file_path": "tasks/completed/2026-04/TASK-2026-008-search-upgrade.md",
+      "reports": [
+        "tasks/completed/2026-04/TASK-2026-008-FINAL-REPORT.md",
+        "tasks/completed/2026-04/TASK-2026-008-EVALUATION-REPORT.md",
+        "tasks/completed/2026-04/TASK-2026-008-PRODUCTION-DEPLOYMENT.md"
+      ]
+    },
+    "TASK-2026-009": {
+      "title": "世界树架构全面检查",
+      "status": "completed",
+      "priority": "P0",
+      "created": "2026-04-09",
+      "due": "2026-04-09",
+      "completed": "2026-04-09",
+      "owner": "Molili",
+      "tags": [
+        "架构",
+        "审计",
+        "世界树"
+      ],
+      "progress": 100,
+      "actual_status": "✅ 已完成 - 架构兼容性 100%",
+      "file_path": "tasks/completed/2026-04/TASK-2026-009-WORLD-TREE-AUDIT.md"
+    },
+    "TASK-2026-010": {
+      "title": "世界树架构改进计划",
+      "status": "completed",
+      "priority": "P0",
+      "created": "2026-04-09",
+      "due": "2026-04-09",
+      "completed": "2026-04-09",
+      "owner": "Molili",
+      "tags": [
+        "架构",
+        "改进",
+        "向量化",
+        "谱系化"
+      ],
+      "progress": 100,
+      "actual_status": "✅ P0/P1/P2 全部完成，所有目标超额完成",
+      "file_path": "tasks/completed/2026-04/TASK-2026-010-WORLD-TREE-IMPROVEMENTS.md"
+    },
+    "TASK-2026-011": {
+      "title": "孙子兵法 Agent 技能",
+      "status": "completed",
+      "priority": "P0",
+      "created": "2026-04-09",
+      "due": "2026-04-09",
+      "completed": "2026-04-09",
+      "owner": "Molili",
+      "tags": [
+        "技能",
+        "决策",
+        "孙子兵法"
+      ],
+      "progress": 100,
+      "actual_status": "✅ 创建+测试+启用全部完成，9/9 通过",
+      "file_path": "tasks/completed/2026-04/TASK-2026-011-ENABLE-TEST-COMPLETE.md"
+    },
+    "TASK-2026-012": {
+      "title": "世界树无损压缩与知识蒸馏",
+      "status": "completed",
+      "priority": "P0",
+      "created": "2026-04-09",
+      "due": "2026-04-09",
+      "completed": "2026-04-09",
+      "owner": "Molili",
+      "tags": [
+        "压缩",
+        "蒸馏",
+        "世界树",
+        "熵减"
+      ],
+      "progress": 100,
+      "actual_status": "✅ Phase 1-4 全部完成，压缩率 97.1%",
+      "file_path": "tasks/TASK-2026-012-WORLD-TREE-COMPRESSION/FINAL-REPORT.md"
+    },
+    "TASK-2026-013": {
+      "title": "达尔文进化熵减引擎",
+      "status": "completed",
+      "priority": "P0",
+      "created": "2026-04-09",
+      "due": "2026-04-09",
+      "completed": "2026-04-09",
+      "owner": "Molili",
+      "tags": [
+        "技能",
+        "进化",
+        "熵减",
+        "生命周期"
+      ],
+      "progress": 100,
+      "actual_status": "✅ 创建+测试+启用全部完成",
+      "file_path": "skills/darwin-evolution/SKILL.md"
+    },
+    "TASK-2026-014": {
+      "title": "定时任务全面修复",
+      "status": "completed",
+      "priority": "P0",
+      "created": "2026-04-09",
+      "due": "2026-04-09",
+      "completed": "2026-04-09",
+      "owner": "Molili",
+      "tags": [
+        "定时任务",
+        "修复",
+        "注册表"
+      ],
+      "progress": 100,
+      "actual_status": "✅ 6 个任务全部修复，scheduled_tasks.json 创建",
+      "file_path": "tasks/scheduled_tasks.json"
+    },
+    "TASK-2026-015": {
+      "title": "任务注册表重建 + 待办梳理",
+      "status": "completed",
+      "priority": "P1",
+      "created": "2026-04-09",
+      "due": "2026-04-09",
+      "completed": "2026-04-09",
+      "owner": "Molili",
+      "tags": [
+        "任务管理",
+        "注册表",
+        "梳理"
+      ],
+      "progress": 100,
+      "actual_status": "注册表重建完成，active/ 目录清理，文件归档完成",
+      "file_path": "tasks/task_registry.json"
+    },
+    "TASK-2026-016": {
+      "title": "每日三思 - L7 自检层（巴别塔全方位自检）",
+      "status": "completed",
+      "priority": "P0",
+      "created": "2026-04-09",
+      "due": null,
+      "completed": "2026-04-11",
+      "owner": "Molili",
+      "tags": [
+        "自检",
+        "反思",
+        "L7",
+        "巴别塔",
+        "达尔文联动"
+      ],
+      "progress": 100,
+      "actual_status": "✅ 自主进化引擎已部署，首个自动技能已创建",
+      "file_path": "HEARTBEAT.md",
+      "output_dir": "memory/self-improvement/"
+    },
+    "TASK-2026-017": {
+      "title": "Multica 集成 - Agent 管理平台",
+      "status": "cancelled",
+      "priority": "P0",
+      "created": "2026-04-11",
+      "due": null,
+      "completed": "2026-04-11",
+      "owner": "Molili",
+      "tags": [
+        "Multica",
+        "Agent管理",
+        "集成",
+        "P0"
+      ],
+      "progress": 100,
+      "actual_status": "用户认为无用，已删除（2026-04-11 20:21）",
+      "file_path": "tasks/active/TASK-2026-017-multica-integration.md",
+      "components": [
+        "knowledge/multica-research/multica_bridge.py",
+        "knowledge/multica-research/multica_config.json",
+        "knowledge/multica-research/MULTICA-DEPLOYMENT-GUIDE.md",
+        "knowledge/multica-research/MULTICA-INTEGRATION-PLAN.md"
+      ]
+    },
+    "TASK-2026-018": {
+      "title": "YAML 工作流引擎 - 参考 Archon 的任务编排系统",
+      "status": "completed",
+      "priority": "P2",
+      "created": "2026-04-11",
+      "due": null,
+      "completed": "2026-04-11",
+      "owner": "Molili",
+      "tags": [
+        "工作流",
+        "YAML",
+        "任务编排",
+        "Archon",
+        "P2"
+      ],
+      "progress": 100,
+      "actual_status": "✅ 引擎+3工作流+Agent节点执行+实际执行验证全部完成",
+      "file_path": "tasks/TASK-2026-018-yaml-workflow-engine/DESIGN.md",
+      "components": [
+        "tasks/TASK-2026-018-yaml-workflow-engine/engine.py",
+        "tasks/TASK-2026-018-yaml-workflow-engine/check_docker.py",
+        "tasks/TASK-2026-018-yaml-workflow-engine/definitions/distill-document.yaml",
+        "tasks/TASK-2026-018-yaml-workflow-engine/definitions/world-tree-health.yaml",
+        "tasks/TASK-2026-018-yaml-workflow-engine/definitions/github-research.yaml"
+      ]
+    },
+    "TASK-2026-019": {
+      "title": "用户画像动态建模 - 从静态 USER.md 到动态学习系统",
+      "status": "completed",
+      "priority": "P2",
+      "created": "2026-04-11",
+      "due": null,
+      "completed": "2026-04-11",
+      "owner": "Molili",
+      "tags": [
+        "用户画像",
+        "动态学习",
+        "偏好",
+        "P2"
+      ],
+      "progress": 100,
+      "actual_status": "✅ 画像数据+学习引擎+晚思联动+USER.md更新全部完成",
+      "file_path": "tasks/TASK-2026-019-user-profile/DESIGN.md",
+      "components": [
+        ".user-profile/user-profile.json",
+        ".user-profile/profile_learner.py",
+        ".user-profile/SKILL.md"
+      ]
+    },
+    "TASK-2026-020": {
+      "title": "世界树 x OpenClaw 融合度优化",
+      "status": "completed",
+      "priority": "P0",
+      "created": "2026-04-11",
+      "due": null,
+      "completed": "2026-04-13",
+      "owner": "Molili",
+      "tags": [
+        "架构",
+        "OpenClaw",
+        "融合",
+        "P0"
+      ],
+      "progress": 100,
+      "actual_status": "6/6 子任务完成，融合度 73%->92%",
+      "file_path": "tasks/TASK-2026-020-integration/FINAL-REPORT.md",
+      "subtasks_completed": [
+        "启用 OpenClaw 原生 Cron（6 个任务）",
+        "启用 Dreaming 自动记忆整合",
+        "对接 Task Flow（桥接文档）",
+        "配置 Model Failover（2 个备用模型）",
+        "插件重评估（worldtree 保持禁用）",
+        "Skill Allowlists（单 Agent 无需配置）"
+      ]
+    },
+    "TASK-2026-022": {
+      "title": "多 Agent 协作优化 - 上下文/技能/超时资源分配",
+      "status": "completed",
+      "priority": "P1",
+      "created": "2026-04-13",
+      "completed": "2026-04-13",
+      "owner": "Molili",
+      "tags": [
+        "多Agent",
+        "上下文管理",
+        "资源分配",
+        "P1"
+      ],
+      "progress": 100,
+      "actual_status": "5/5 改进点已写入 AGENTS.md，10 分钟完成",
+      "file_path": "tasks/TASK-2026-022-multia-agent-optimization/DESIGN.md"
+    },
+    "TASK-2026-026": {
+      "title": "统一搜索引擎优化 - Bug修复+时效加权+TurboQuant排查",
+      "status": "completed",
+      "priority": "P1",
+      "created": "2026-04-16",
+      "completed": "2026-04-16",
+      "owner": "Molili",
+      "tags": [
+        "搜索引擎",
+        "Bug修复",
+        "统一搜索",
+        "P1"
+      ],
+      "progress": 100,
+      "actual_status": "7/7子任务完成：3个Bug修复、时效加权、TQ索引重建、SKILL.md更新、jieba评估",
+      "file_path": "tasks/TASK-2026-026-unified-search-opt/PROGRESS.md"
+    }
+  },
+  "statistics": {
+    "total": 21,
+    "active": 1,
+    "completed": 20,
+    "cancelled": 2,
+    "paused": 0,
+    "overdue": 0
+  },
+  "next_task_id": "TASK-2026-021",
+  "registry_issues_found": [
+    "2026-04-09 修复: JSON 格式损坏 → 已完全重建",
+    "2026-04-09 修复: 缺失 9 个已完成任务 → 已全部补全",
+    "2026-04-09 修复: TASK-2026-003 进度 0% → 已更新为 60%",
+    "2026-04-09 修复: TASK-2026-001 合并到 003 → 已标记完成",
+    "2026-04-09 修复: active/ 目录清理 → 仅保留 1 个任务文件"
+  ]
+}
